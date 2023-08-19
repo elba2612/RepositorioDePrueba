@@ -1,0 +1,34 @@
+pwd    en qué directorio estoy
+git --version    versión de git instalada
+ls    contenido de la carpeta
+ls -l  indica si son archivos o directorios y detalles
+ls -lh detalles y peso de los archivos
+ls -la muestra archivos ocultos
+clear limpia la pantalla
+cd  para moverme entre directorios: cd nombre del directorio para entrar,
+    cd .. sube un nivel, cd / directorio raíz
+exit  salir
+mkdir crear directorio
+touch crear un archivo
+cat  muestra lo que tiene el archivo
+rm elimina el archivo
+rm -r elimina carpeta
+git init inicializa el repositorio (con ls -la veo los archivos ocultos) directorio de trabajo
+git config --global user.name "nombre"  propietario del archivo
+git config --global user.email "dirección de correo elect." dirección de mail del usuario
+git config user.name  devuelve nombre de usuario
+git config user.email devuelve el mail del usuario
+git add nombre de archivo agrega al staging area
+git commit -m "comentario" agrega al repositorio local
+git status
+git log
+
+git remote add origin dirección de git hub
+git remote -v
+git push origin master
+
+
+
+
+
+
